@@ -205,7 +205,7 @@ static const NSString *kDefaultSolidChar = @"★";
 {
     _respondsToTranslatesAutoresizingMaskIntoConstraints = [self respondsToSelector:@selector(translatesAutoresizingMaskIntoConstraints)];
     
-    _rating = 0;
+    self.rating = 0;
     self.backgroundColor = [UIColor clearColor];
     self.opaque = NO;
     
@@ -282,7 +282,7 @@ static const NSString *kDefaultSolidChar = @"★";
 	{
 		if (_rating != 0)
 		{
-			_rating = 0;
+			self.rating = 0;
             if (self.editingChangedBlock)
             {
                 self.editingChangedBlock(_rating);
@@ -293,7 +293,7 @@ static const NSString *kDefaultSolidChar = @"★";
 	{
 		if (_rating != _maxRating)
 		{
-			_rating = _maxRating;
+			self.rating = _maxRating;
             if (self.editingChangedBlock)
             {
                 self.editingChangedBlock(_rating);
@@ -308,7 +308,7 @@ static const NSString *kDefaultSolidChar = @"★";
 			{
 				if (_rating != (i + 1))
 				{
-					_rating = i + 1;
+					self.rating = i + 1;
                     if (self.editingChangedBlock)
                     {
                         self.editingChangedBlock(_rating);

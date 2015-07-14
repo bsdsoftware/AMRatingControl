@@ -230,7 +230,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = AMRatingControl_Prefix.pch;
 				INFOPLIST_FILE = "AMRatingControl-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = AMRatingControl;
 				SDKROOT = iphoneos;
 			};
@@ -245,7 +245,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = AMRatingControl_Prefix.pch;
 				INFOPLIST_FILE = "AMRatingControl-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = AMRatingControl;
 				SDKROOT = iphoneos;
 			};
