@@ -202,11 +202,9 @@ static const NSString *kDefaultSolidChar = @"★";
                     andMaxRating:(NSInteger)maxRating
 {
     _respondsToTranslatesAutoresizingMaskIntoConstraints = [self respondsToSelector:@selector(translatesAutoresizingMaskIntoConstraints)];
-    
-    self.rating = 0;
     self.backgroundColor = [UIColor clearColor];
     self.opaque = NO;
-    
+    _rating = 0;
     _emptyImage = emptyImageOrNil;
     _solidImage = solidImageOrNil;
     _emptyColor = emptyColor;
